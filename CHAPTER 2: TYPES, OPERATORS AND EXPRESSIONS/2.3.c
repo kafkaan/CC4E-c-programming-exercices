@@ -1,4 +1,7 @@
 #include <stdio.h>
+//Exercise 2-3. Write an alternate version of squeeze(s1, s2) which deletes each character 
+//in s1 which matches any character in the string s2.
+
 
 void squeeze(char *s, char *s2)
 {

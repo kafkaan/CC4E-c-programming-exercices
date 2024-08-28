@@ -5,8 +5,7 @@ void main(void)
     
 }
 
-
-
+// ------------------------------ Squeeze -------------------------
 void squeeze(s, c) 
 char s[];
 int c;
