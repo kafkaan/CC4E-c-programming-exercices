@@ -1,1 +1,2 @@
-# CC4E-c-programming-exercices
+# CC4E-c-programming-exercices chapiter by chapiter
+
