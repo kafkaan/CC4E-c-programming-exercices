@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/nikolozi/CC4E-c-programming-exercices/CHAPTER 3: CONTROL FLOW",
-      "program": "/home/nikolozi/CC4E-c-programming-exercices/CHAPTER 3: CONTROL FLOW/build/Debug/outDebug",
+      "cwd": "/home/nikolozi/CC4E-c-programming-exercices/CHAPTER 6: STRUCTURES",
+      "program": "/home/nikolozi/CC4E-c-programming-exercices/CHAPTER 6: STRUCTURES/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Concatenate t to the end of s. Assumes that s has enough space */
+/* ------------ Concatenate t to the end of s. Assumes that s has enough space -------------- */
 void strcat(char *s, const char *t)
 {
     // Avancer s jusqu'à la fin de la chaîne (caractère nul '\0')
@@ -11,7 +11,7 @@ void strcat(char *s, const char *t)
     while ((*s++ = *t++))
         ;
 }
-
+// ----------------------------------- MAIN ----------------------------------------------- //
 int main(void)
 {
     char s[100] = "Bonjour "; // Chaine de destination avec assez d'espace

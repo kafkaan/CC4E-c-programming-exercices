@@ -4,6 +4,8 @@ static int day_tab[2][13] = {
     {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31},
     {0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}};
 
+// ------------------------------------------------------------------------ //
+
 int day_of_year(int year, int month, int day);
 void month_day(int year, int yearday, int *pmonth, int *pday);
 
@@ -22,6 +24,7 @@ int main()
 
     return 0;
 }
+// ################################################################
 
 int day_of_year_withPointer(int year, int month, int day)
 {
@@ -47,6 +50,10 @@ void month_day_withPointer(int year, int yearday, int *pmonth, int *pday)
     *pmonth = i;
     *pday = yearday;
 }
+
+
+
+
 // --------------------------------------------------------------------
 void month_day(int year, int yearday, int *pmonth, int *pday)
 {

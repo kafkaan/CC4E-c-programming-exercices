@@ -8,13 +8,15 @@
 #include <ctype.h>
 #include <string.h>
 #include <stdlib.h>
-// --------------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------------- //
+
 #define NUMBER '0' /* signal that a number was found */
 #define MAXVAL 100 /* maximum depth of val stack */
 #define BUFSIZE 100
 #define MAXLINE 1000
 #define MAXOP 100
 
+// ------------------------------------------------------------------------------------ //
 int getch(void);
 
 void ungetch(int);
@@ -35,9 +37,10 @@ void itoav2(int n, char *s);
 
 void reverse(char *);
 
-// ----------------------------------------------------------------
+// ----------------------------------------------------------------------------------- //
 int sp = 0;
 int bufp = 0;
+
 double val[MAXVAL];
 char buf[BUFSIZE];
 
@@ -235,7 +238,7 @@ void reverse(char *s)
     }
 }
 
-/* -----------------------------    mgetline ----------------------------------------    */
+/* -----------------------------    mgetline    ----------------------------------------    */
 
 int mgetline(char *s, int lim)
 {
