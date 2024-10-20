@@ -136,7 +136,9 @@ int type(int c) /* return type of ASCII character */
         return (c);
 }
 
-int getwordv2(char *w, int lim) /* get next word from input */
+
+/* get next word from input */
+int getwordv2(char *w, int lim) 
 {
     int c, t;
     if (type(c = *w++ = getch()) != LETTER)
