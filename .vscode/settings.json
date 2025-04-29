@@ -61,7 +61,10 @@
     "contient_motif.C": "cpp",
     "cmath": "c",
     "4.7.C": "cpp",
-    "5.11.C": "cpp"
+    "5.11.C": "cpp",
+    "compare": "c",
+    "type_traits": "c",
+    "utility": "c"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }
